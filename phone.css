@@ -1,0 +1,70 @@
+body{
+	margin:0;
+	padding:0;
+}
+.navbar
+{
+	width:100%;
+}
+#li1::before{
+	width:108%;
+}
+.navcontainer{
+	box-shadow:-1px 2px 4px 1px grey;
+}
+.navbar ul{
+	flex-flow:row;
+}
+.navbar ul li{
+ font-size:21px;
+}
+
+#xyz {
+ width:150px;
+ padding:0px 0px;
+ font-size:21px;
+}
+.belowhead{
+	bottom:7px;
+}
+#card1{
+	left:80px;
+}
+#cardexp1{
+	top:145px;
+	left:148px;
+}
+#card2{
+	margin-left:715px;
+	top:227px;
+}
+#cardexp2{
+	bottom:217px;
+}
+#cardexp2 p{
+ font-size:22px;
+}
+#card3{
+	right: 579px;
+    top: 336px;
+}
+#cardexp3{
+	left:314px;
+	top:-114px;
+	width:63%;
+}
+#card4{
+	top:386px;
+	left:75px;
+}
+#cardexp4{
+	bottom:73px;
+}
+#card4:hover~#cardexp4{
+   animation:cardexpap40 600s linear ;
+}
+@keyframes cardexpap40{
+	0%{top:100px; visibility:hidden; opacity:0;}
+	0.3%{top:-100px; visibility:visible; opacity:1;}
+	100%{top:-100px; visibility:visible; opacity:1;}
+}
